@@ -1,0 +1,43 @@
+{
+    "name": "adoranwodo/laravelcorsmiddleware",
+    "description": ":description",
+    "license": "osl-3.0",
+    "authors": [
+        {
+            "name": "Nenne Adora Nwodo",
+            "email": "nennenwodo@gmail.com",
+            "homepage": "https://adoranwodo.com"
+        }
+    ],
+    "homepage": "https://github.com/adoranwodo/laravelcorsmiddleware",
+    "keywords": ["Laravel", "LaravelCorsMiddleware"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdoraNwodo\\LaravelCorsMiddleware\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AdoraNwodo\\LaravelCorsMiddleware\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdoraNwodo\\LaravelCorsMiddleware\\LaravelCorsMiddlewareServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCorsMiddleware": "AdoraNwodo\\LaravelCorsMiddleware\\Facades\\LaravelCorsMiddleware"
+            }
+        }
+    }
+}
