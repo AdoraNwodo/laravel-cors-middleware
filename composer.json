@@ -1,6 +1,6 @@
 {
     "name": "adoranwodo/laravelcorsmiddleware",
-    "description": ":description",
+    "description": "Add CORS support to your Lumen / Laravel application",
     "license": "osl-3.0",
     "authors": [
         {
