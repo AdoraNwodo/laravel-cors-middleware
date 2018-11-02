@@ -1,7 +1,7 @@
 # LaravelCorsMiddleware
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads](https://poser.pugx.org/adoranwodo/laravel/corsmiddleware/downloads)](https://packagist.org/packages/adoranwodo/laravelcorsmiddleware)
+[![Total Downloads](https://poser.pugx.org/adoranwodo/laravelcorsmiddleware/downloads)](https://packagist.org/packages/adoranwodo/laravelcorsmiddleware)
 [![Build Status](https://semaphoreci.com/api/v1/adoranwodo/laravel-cors-middleware/branches/master/shields_badge.svg)](https://semaphoreci.com/adoranwodo/laravel-cors-middleware)
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
