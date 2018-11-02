@@ -94,11 +94,11 @@ return [
 	* for allowedOrigins as this would give everyone access to your api.
     */
 
-    'allowCredentials' => true,	  //true or false.      NOTE: Boolean NOT String. 'true' is different from true
-    'allowedOrigins' => ['http://localhost:8081'],    //array of strings    e.g. ['*'] or ['https://mywebsite.com', 'https://anotherwebsite.com', ... ]
-    'allowedMethods' => ['GET'],    //array of strings    e.g. ['*'] or ['GET', 'POST', ... ]
-    'allowedHeaders' => ['Content-Type', 'Authorization'],    //array of strings.   e.g. ['*'] or ['Content-Type', 'Authorization', ... ]
-    'maxAge' => 86400,                //number.             e.g. 86400
+    'allowCredentials' => true,	  		          	//true or false.      NOTE: Boolean NOT String. 'true' is different from true
+    'allowedOrigins' => ['http://localhost:8081'],        	//array of strings    e.g. ['*'] or ['https://mywebsite.com', 'https://anotherwebsite.com', ... ]
+    'allowedMethods' => ['GET'],    			  	//array of strings    e.g. ['*'] or ['GET', 'POST', ... ]
+    'allowedHeaders' => ['Content-Type', 'Authorization'],      //array of strings.   e.g. ['*'] or ['Content-Type', 'Authorization', ... ]
+    'maxAge' => 86400,                			        //number.             e.g. 86400
 ];
 ```
 Once this is done, you can go to ```bootstrap/app.php```. Here, you will load the configuration file manually and register the service provider like this: 
@@ -129,11 +129,6 @@ $app->routeMiddleware([
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Contributing
 
