@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/adoranwodo/laravelcorsmiddleware/downloads)](https://packagist.org/packages/adoranwodo/laravelcorsmiddleware)
 [![Build Status](https://semaphoreci.com/api/v1/adoranwodo/laravel-cors-middleware/branches/master/shields_badge.svg)](https://semaphoreci.com/adoranwodo/laravel-cors-middleware)
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Laravel Cors Middleware is a package that allows users enable Cross-Origin Resource Sharing (CORS) for their Laravel / Lumen applications by taking advantage of the middleware configuration.
 
 ## Installation
 
@@ -13,6 +13,26 @@ Via Composer
 ``` bash
 $ composer require adoranwodo/laravelcorsmiddleware
 ```
+## Laravel
+If you are using Laravel, please continue here. If you are using Lumen, please scroll to the Lumen section
+after doing this, please add the service provider to your ``` config/app.php ``` : 
+
+```
+'providers' => [
+  ...
+  AdoraNwodo\LaravelCorsMiddleware\LaravelCorsMiddlewareServiceProvider::class
+]
+```
+
+There is a default configuration in ```config.laravelcorsmiddleware.php```. Publish this file to your own config directory and change to your own values. You can publish the file by running the code below in your terminal:
+```
+php artisan vendor:publish --provider="AdoraNwodo\LaravelCorsMiddleware\LaravelCorsMiddlewareServiceProvider"
+```
+There are some instructions in the config. Please adhere strictly and you should be fine :).
+
+Finally, you need to add this to your middleware. You can add it globally or to a middleware group.
+
+
 
 ## Usage
 
