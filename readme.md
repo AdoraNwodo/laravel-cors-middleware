@@ -30,7 +30,7 @@ Please add the service provider to your ``` config/app.php ``` :
 ]
 ```
 
-There is a default configuration in ```config.laravelcorsmiddleware.php```. Publish this file to your own config directory and change to your own values. You can publish the file by running the code below in your terminal:
+There is a default configuration in ```config/laravelcorsmiddleware.php```. Publish this file to your own config directory and change to your own values. You can publish the file by running the code below in your terminal:
 ```
 php artisan vendor:publish --provider="AdoraNwodo\LaravelCorsMiddleware\LaravelCorsMiddlewareServiceProvider"
 ```
