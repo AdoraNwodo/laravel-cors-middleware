@@ -45,7 +45,7 @@ class LaravelCorsMiddlewareServiceProvider extends ServiceProvider
 
             $headers = $app['config']->get('laravelcorsmiddleware');
 
-            return new LaravelCorsMiddleware($headers);
+            return new LaravelCorsMiddleware;
         });
     }
 

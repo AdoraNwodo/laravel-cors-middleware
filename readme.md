@@ -53,5 +53,5 @@ osl-3.0. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/adoranwodo/laravelcorsmiddleware
 [link-travis]: https://travis-ci.org/adoranwodo/laravelcorsmiddleware
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/nenneadora
+[link-author]: https://github.com/adoranwodo
 [link-contributors]: ../../contributors]

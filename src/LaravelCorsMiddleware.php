@@ -4,10 +4,11 @@ namespace AdoraNwodo\LaravelCorsMiddleware;
 
 class LaravelCorsMiddleware
 {
-	
-	public function __construct(array $headers = array())
+
+	public function __construct()
     {
-        $this->headers = $this->transform($headers);
+    	$cors = config('laravelcorsmiddleware');
+        $this->headers = $this->transform($cors);
     }
 
 
