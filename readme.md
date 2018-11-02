@@ -138,11 +138,6 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 If you discover any security related issues, please email nennenwodo@gmail.com instead of using the issue tracker.
 
-## Credits
-
-- [Nenne Adora Nwodo][link-author]
-- [All Contributors][link-contributors]
-
 ## License
 
 osl-3.0. Please see the [license file](license.md) for more information.
