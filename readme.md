@@ -3,6 +3,8 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads](https://poser.pugx.org/adoranwodo/laravelcorsmiddleware/downloads)](https://packagist.org/packages/adoranwodo/laravelcorsmiddleware)
 [![Build Status](https://semaphoreci.com/api/v1/adoranwodo/laravel-cors-middleware/branches/master/shields_badge.svg)](https://semaphoreci.com/adoranwodo/laravel-cors-middleware)
+[![License](https://poser.pugx.org/adoranwodo/laravelcorsmiddleware/license)](https://packagist.org/packages/adoranwodo/laravelcorsmiddleware/)
+[![composer.lock available](https://poser.pugx.org/adoranwodo/laravelcorsmiddleware/composerlock)](https://packagist.org/packages/adoranwodo/laravelcorsmiddleware)
 
 Laravel Cors Middleware is a package that allows users enable Cross-Origin Resource Sharing (CORS) for their Laravel / Lumen applications by taking advantage of the middleware configuration.
 
