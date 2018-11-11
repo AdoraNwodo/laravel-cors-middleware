@@ -142,7 +142,7 @@ If you discover any security related issues, please email nennenwodo@gmail.com i
 
 ## License
 
-osl-3.0. Please see the [license file](license.md) for more information.
+Apache License 2.0. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/adoranwodo/laravelcorsmiddleware.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/adoranwodo/laravelcorsmiddleware.svg?style=flat-square
