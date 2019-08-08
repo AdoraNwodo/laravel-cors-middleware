@@ -13,17 +13,10 @@ class LaravelCorsMiddlewareServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'adoranwodo');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'adoranwodo');
-        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        // $this->loadRoutesFrom(__DIR__.'/routes.php');
-
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
         }
-
-        
     }
 
     protected function configPath()
@@ -70,23 +63,5 @@ class LaravelCorsMiddlewareServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/laravelcorsmiddleware.php' => config_path('laravelcorsmiddleware.php'),
         ], 'laravelcorsmiddleware.config');
-
-        // Publishing the views.
-        /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/adoranwodo'),
-        ], 'laravelcorsmiddleware.views');*/
-
-        // Publishing assets.
-        /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/adoranwodo'),
-        ], 'laravelcorsmiddleware.views');*/
-
-        // Publishing the translation files.
-        /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/adoranwodo'),
-        ], 'laravelcorsmiddleware.views');*/
-
-        // Registering package commands.
-        // $this->commands([]);
     }
 }
